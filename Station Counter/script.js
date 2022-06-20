@@ -23,15 +23,14 @@ function save() {
     countEl.textContent = count
 }
 
-// function justNumbers(text) {
-//     var numbers = text.replace(/[^0-9]/g,'');
-//     return parseInt(numbers);
-// }
+function justNumbers(text) {
+    var numbers = text.replace(/[^0-9]/g,'');
+    return parseInt(numbers);
+}
 
-// function warningPhrase() {
-//     var peopleInside = justNumbers(saveEl)
-//     if (peopleInside > 40) {
-//         warningEl.textContent = ("WARNING: The number of persons transpassed the limit!")
-//     }
-// }
+var peopleInside = justNumbers(document.getElementById("save-el"))
+
+    if (peopleInside > 40) {
+        warningEl.textContent = ("WARNING: The number of persons transpassed the limit!")
+    }
 
