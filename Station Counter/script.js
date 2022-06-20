@@ -23,10 +23,10 @@ function save() {
     countEl.textContent = count
 }
 
-function justNumbers(text) {
-    var numbers = text.replace(/[^0-9]/g,'');
-    return parseInt(numbers);
-}
+// function justNumbers(text) {
+//     var numbers = text.replace(/[^0-9]/g,'');
+//     return parseInt(numbers);
+// }
 
 // function warningPhrase() {
 //     var peopleInside = justNumbers(saveEl)
