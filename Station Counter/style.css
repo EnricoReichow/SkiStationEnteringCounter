@@ -47,11 +47,11 @@ button {
 }
 
 #increment-btn {
-    background: rgb(241, 117, 117);
+    background: rgb(30, 0, 255);
 }
 
 #remove-btn {
-    background: rgb(109, 109, 226);
+    background: rgb(255, 0, 0);
 }
 
 #save-btn {
